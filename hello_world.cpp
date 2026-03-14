@@ -1,11 +1,11 @@
 #include <iostream>
 #include <string>
 
-//main functin
+//фукнция main 
 int main() {
-std::string name; //var for user name
+std::string name; //переменная для имени пользователя
 std::cout << "Enter your name: ";
-std::cin >> name; //getting name
-std::cout << "Hello world form " << name << std::endl; //greeting
+std::cin >> name; //получение имени
+std::cout << "Hello world form " << name << std::endl; //приветствие
 return 0;
 }
