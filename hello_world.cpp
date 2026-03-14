@@ -1,10 +1,11 @@
 #include <iostream>
-using namespace std;
+#include <string>
 
+//main functin
 int main() {
-string name;
-cout << "Enter your name: ";
-cin >> name;
-cout << "Hello world from " << name << endl;
+std::string name; //var for user name
+std::cout << "Enter your name: ";
+std::cin >> name; //getting name
+std::cout << "Hello world form " << name << std::endl; //greeting
 return 0;
 }
