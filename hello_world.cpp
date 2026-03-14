@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-//function main
+//main functin
 int main() {
 std::string name; //var for user name
 std::cout << "Enter your name: ";
